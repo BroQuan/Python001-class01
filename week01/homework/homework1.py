@@ -40,4 +40,4 @@ print(types)
 movies = [titles, times, types]
 movies = (list(zip(*movies)))
 top10 = pd.DataFrame(data=movies)
-top10.to_csv(r'./maoyan10.csv',encoding='utf-8', index=False, header=False)
+top10.to_csv(r'./maoyanlist1.csv',encoding='utf-8', index=False, header=False)
